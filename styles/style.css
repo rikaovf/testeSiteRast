@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: lightsteelblue;
+}
+
+body{
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-left: 1%;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: #333;
+    font-size: 3em;
+}
+
+h2 {
+    color: #555;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+.principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    height: 100%;
+    width: 95%;
+    background-color: rgb(226, 248, 226);
+}
+
+.cabecalho{
+    position: relative;
+    width: 100%;
+    height: 8em;
+}
+
+.logo{
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-image: url(files/logo.png);
+    background-size: contain;
+}
+
+.corpo{
+    width: 95%;
+    margin: 5% 2% 2%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contato{
+    height: 20%;
+    width: 95%;
+    margin: 2% 2% 2%;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    width: 95%;
+    margin: 2% 2% 2%;
+}
+
+.image{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 40%;
+}
+
