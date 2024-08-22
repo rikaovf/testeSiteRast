@@ -1,0 +1,151 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: lightsteelblue;
+}
+
+body{
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-left: 1%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: #333;
+    font-size: 3em;
+}
+
+h2 {
+    color: #555;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;                        /* Faz com que os elementos de entrada e textarea ocupem 100% da largura do parent */
+    margin-top: 2rem;                   /* Adiciona margem superior para espaçar os elementos */
+    border: none;                       /* Remove bordas padrão */
+    border-bottom: 1px solid black;     /* Adiciona uma borda inferior para um visual minimalista */
+    padding: 10px; /* Adiciona preenchimento para melhor legibilidade */
+}
+
+
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+.principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    height: 100%;
+    width: 95%;
+    background-color: rgb(226, 248, 226);
+}
+
+.cabecalho{
+    position: relative;
+    width: 100%;
+    height: 8em;
+}
+
+.logo{
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-image: url(files/logo.png);
+    background-size: contain;
+}
+
+.corpo{
+    width: 95%;
+    margin: 5% 2% 2%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contato{
+    height: 20%;
+    width: 95%;
+    margin: 2% 2% 2%;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5%;
+    width: 95%;
+    margin: 2% 2% 2%;
+}
+
+.image{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 40%;
+}
+
+/* Container para o formulário fornecendo contexto de posicionamento relativo */
+.form-container {
+    position: relative;                 /* Contexto de posicionamento para posicionamento absoluto dentro */
+    left: 20%;                          /* Posiciona o container 20% da esquerda da janela de visualização */
+    width: 60%;                         /* Define a largura do container para 60% da largura da janela de visualização */
+    height: 100vh;                      /* Define a altura para ser 100% da altura da janela de visualização */
+    background-color: white;            /* Define a cor de fundo do container do formulário */
+}
+
+
+/* Estilização para o próprio formulário de contato */
+.contact-form {
+    position: absolute;                 /* Posiciona o formulário absolutamente dentro de seu container parent */
+    top: 10%;                           /* Posiciona o formulário a 10% do topo de seu container */
+    left: 10%;                          /* Posiciona o formulário a 10% da esquerda de seu container */
+    width: 80%;                         /* A largura do formulário é 80% de seu container */
+    min-height: 600px;                  /* Altura mínima para o formulário */
+}
+
+
+/* Estilização para o botão de envio */
+.submit {
+    border: 1px solid black;            /* Adiciona uma borda sólida ao redor do botão de envio */
+    padding: 1rem;                      /* Adiciona preenchimento dentro do botão para melhor clickability */
+    text-align: center;                 /* Centraliza o texto dentro do botão */
+    background-color: white;            /* Define a cor de fundo do botão */
+    cursor: pointer;                    /* Altera o cursor para um ponteiro para indicar que é clicável */
+}
+
+
+/* Estilização para o botão de envio ao passar o mouse */
+.submit:hover {
+    opacity: 0.6;                       /* Altera a opacidade ao passar o mouse para dar um feedback visual */
+}
